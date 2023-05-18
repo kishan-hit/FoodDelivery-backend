@@ -1,80 +1,75 @@
 const categories = [
     {
-    name: "Computers",
+    name: "Dominos",
     description:
-      "Computers - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Don't miss out on this amazing deal.Order now and satisfy your pizza cravings in no time.",
+    image: "/images/dominos.jpg",
     attrs: [
-      { key: "RAM", value: ["1 TB", "2 TB", "4 TB"] },
-      { key: "color", value: ["blue", "red", "green", "black"] },
+      { key: "topping", value: ["margherita", "pepperoni", "vegetarian"] },
     ],
   },
   {
-    name: "Computers/Laptops",
+    name: "Burger King",
     description:
-      "Computers/Laptops - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Why just grab a bite for breakfast? Make a meal of it with one of our completely satisfying combos. Order Now.",
+    image: "/images/burger-king.jpg",
+    attrs: [
+      { key: "variations", value: ["hamburger", "cheeseburger"] },
+    ],
   },
   {
-    name: "Computers/Laptops/Lenovo",
+    name: "Behrouz Biryani",
     description:
-      "Computers/Laptops/Lenovo - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Craving biryani? Order biryani online from Behrouz and satisfy your hunger pangs with our flavorful and aromatic biryanis. Order now!",
+    image: "/images/behrouz.jpg",
+    attrs: [
+      { key: "style", value: ["hyderabadi", "lucknowi", "kolkata"] },
+    ],
   },
   {
-    name: "Computers/Laptops/Dell",
+    name: "Rang De Basanti Dhaba",
     description:
-      "Computers/Laptops/Dell - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "The North Indian and Mughlai servings gives you the spiciest of flavors and tangy twist that you have often craved for. Order now.",
+    image: "/images/rang-de-basanti.jpg",
+    attrs: [
+      { key: "type", value: ["veg", "non-veg"] },
+    ],
   },
   {
-    name: "Tablets",
+    name: "China bowl",
     description:
-      "Tablets - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
+      "Order from a variety of dishes, from traditional favorites like Kung Pao Chicken and Egg Fried Rice to modern twists like Szechuan Noodles and Shanghai Dumplings.",
+    image: "/images/china-bowl.jpg",
+    attrs: [
+      { key: "cuisine", value: ["sichuan", "cantonese", "candong"] },
+    ],
   },
   {
-    name: "Monitors",
+    name: "Chennai Express",
     description:
-      "Monitors - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
+      "A one stop destination for all South Indian food lovers serving pure vegetarian meals in a modern and contemporary ambiance. Order now",
+    image: "/images/chennai-express.jpg",
+    attrs: [
+      { key: "type", value: ["dish", "curry", "snacks"] },
+    ],
   },
   {
-    name: "Games",
+    name: "Wow Momo",
     description:
-      "Games - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/games-category.png",
+      "Order from a wide variety of momos, ranging from steamed, fried, and tandoori momos to exotic flavors like Schezwan, Thai, and Mexican",
+    image: "/images/wow-momo.jpg",
+    attrs: [
+      { key: "filling", value: ["vegetable", "chicken", "cheese"] },
+    ],
   },
   {
-    name: "Printers",
+    name: "Kwality Walls",
     description:
-      "Printers - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-  },
-  {
-    name: "Software",
-    description:
-      "Software - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
-  },
-  {
-    name: "Cameras",
-    description:
-      "Cameras - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/games-category.png",
-  },
-  {
-    name: "Books",
-    description:
-      "Books - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/tablets-category.png",
-    attrs: [{ key: "genre", value: ["movie", "comedy", "thriller"] }],
-  },
-  {
-    name: "Videos",
-    description:
-      "Videos - Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam qui. Accusamus similique placeat at nisi autem eaque molestiae velit.",
-    image: "/images/monitors-category.png",
+      "It's time to treat yourself to Kwality Walls.",
+    image: "/images/kwality-walls.jpg",
+    attrs: [
+      { key: "flavour", value: ["chocolate", "vanilla", "butterscotch"] },
+    ],
   },
 ]
 

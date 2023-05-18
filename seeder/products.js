@@ -1,300 +1,405 @@
 const products = [
     {
-    name: "Product1 Lenovo Comp1 Name Lorem ipsum dolor sit amet",
+    name: "Margerita",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Classic delight with 100% real mozzarella cheese. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
     count: 5,
     price: 100,
-    category: "Computers/Laptops/Lenovo",
+    category: "Dominos",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/dominos-margerita.jpg" },
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
-    attrs: [{ key: "color", value: "blue" }],
+    attrs: [{ key: "topping", value: "margherita" }],
   },
   {
-    name: "Product2 Lenovo Comp2 Name Lorem ipsum dolor sit amet",
+    name: "Farmhouse",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Delightful combination of onion, capsicum, tomato & grilled mushroom. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
     count: 5,
     price: 100,
-    category: "Computers/Laptops/Lenovo",
+    category: "Dominos",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/dominos-farmhouse.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 5,
+    reviews: [],
+    attrs: [{ key: "topping", value: "vegetarian" }],
+  },
+  {
+    name: "Barbecue Chicken Pizza",
+    description:
+      "Pepper barbecue chicken for that extra zing. Available in Cheese Burst, Wheat Thin Crust and Pan Crust options.",
+    count: 5,
+    price: 100,
+    category: "Dominos",
+    images: [
+      { path: "/images/BBQ-chicken-pizza.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 5,
+    reviews: [],
+    attrs: [{ key: "topping", value: "pepperoni" }],
+  },
+  {
+    name: "Chicken Whopper",
+    description:
+      "Signature Whopper with 7 layers between the buns. Flame grilled chicken patty, fresh onion and juicy tomatoes.",
+    count: 5,
+    price: 100,
+    category: "Burger King",
+    images: [
+      { path: "/images/chicken-whooper.jpg"},
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
-      { key: "color", value: "black" },
-      { key: "RAM", value: "1 TB" },
+      { key: "variations", value: "cheeseburger" },
     ],
   },
   {
-    name: "Product3 Dell Comp Name Lorem ipsum dolor sit amet",
+    name: "Crispy Chicken Burger",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Our Best-Selling Burger with crispy chicken patty.",
     count: 5,
     price: 100,
-    category: "Computers/Laptops/Dell",
+    category: "Burger King",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/crispy-chicken-burger.jpg"},
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
     attrs: [
-      { key: "color", value: "black" },
-      { key: "RAM", value: "1 TB" },
+      { key: "variations", value: "cheeseburger" },
     ],
   },
   {
-    name: "Product4 Tablet Name Lorem ipsum dolor sit amet",
+    name: "Chicken Tandoori Burger",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Flame grilled tandoori chicken, mint sauce with fresh onions.",
     count: 5,
     price: 100,
-    category: "Tablets",
+    category: "Burger King",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/chicken-tandoori-burger.jpg"},
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
-  },
-  {
-    name: "Product5 Tablet Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 10,
-    price: 200,
-    category: "Tablets",
-    images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
+    attrs: [
+      { key: "variations", value: "hamburger" },
     ],
-    rating: 5,
-    reviewsNumber: 6,
-    reviews: [],
   },
   {
-    name: "Product6 Tablet Name Lorem ipsum dolor sit amet",
+    name: "Lazeez Bhuna Murgh",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 15,
-    price: 300,
-    category: "Tablets",
-    images: [
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-    ],
-    rating: 4,
-    reviewsNumber: 7,
-    reviews: [],
-  },
-  {
-    name: "Product7 Tablet Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 20,
-    price: 400,
-    category: "Tablets",
-    images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
-    ],
-    rating: 4,
-    reviewsNumber: 8,
-    reviews: [],
-  },
-  {
-    name: "Product8 Tablet Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 25,
-    price: 500,
-    category: "Tablets",
-    images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
-    ],
-    rating: 3,
-    reviewsNumber: 9,
-    reviews: [],
-  },
-  {
-    name: "Product9 Monitor Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Crafted in hyderabadi style, tender chicken pieces are dum-pukht with aromatic rice.",
     count: 5,
     price: 100,
-    category: "Monitors",
+    category: "Behrouz Biryani",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/biryani-lazzez-bhuna-murgh.jpg" },
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
-  },
-  {
-    name: "Product10 Monitor Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 10,
-    price: 200,
-    category: "Monitors",
-    images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
+    attrs: [
+      { key: "style", value: "hyderabadi" },
     ],
-    rating: 5,
-    reviewsNumber: 6,
-    reviews: [],
   },
   {
-    name: "Product11 Monitor Name Lorem ipsum dolor sit amet",
+    name: "Subz-E-Biryani",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 15,
-    price: 300,
-    category: "Monitors",
-    images: [
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-    ],
-    rating: 4,
-    reviewsNumber: 7,
-    reviews: [],
-  },
-  {
-    name: "Product12 Monitor Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 20,
-    price: 400,
-    category: "Monitors",
-    images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
-    ],
-    rating: 4,
-    reviewsNumber: 8,
-    reviews: [],
-  },
-  {
-    name: "Product13 Monitor Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 25,
-    price: 500,
-    category: "Monitors",
-    images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
-    ],
-    rating: 3,
-    reviewsNumber: 9,
-    reviews: [],
-  },
-  {
-    name: "Product14 Game Name Lorem ipsum dolor sit amet",
-    description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Crafted in lucknowi style, crisp vegetables marinated in a spicier blend.",
     count: 5,
     price: 100,
-    category: "Games",
+    category: "Behrouz Biryani",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/biryani-Subz-e-Biryani.jpg" },
     ],
     rating: 5,
     reviewsNumber: 5,
     reviews: [],
+    attrs: [
+      { key: "style", value: "lucknowi" },
+    ],
   },
   {
-    name: "Product15 Game Name Lorem ipsum dolor sit amet",
+    name: "Zaikedaar Paneer",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
+      "Soft, fresh paneer marinated with exquisite royal spices & layered with basmati.",
+    count: 5,
+    price: 100,
+    category: "Behrouz Biryani",
+    images: [
+      { path: "/images/zaikedaar-paneer.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 5,
+    reviews: [],
+    attrs: [
+      { key: "style", value: "kolkata" },
+    ],
+  },
+  {
+    name: "Dilli Ka Butter Chicken",
+    description:
+      "Dilli ki aan aur shaan.",
     count: 10,
     price: 200,
-    category: "Games",
+    category: "Rang De Basanti Dhaba",
     images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/butter-chicken.jpg" },
     ],
     rating: 5,
     reviewsNumber: 6,
     reviews: [],
+    attrs: [
+      { key: "type", value: "non-veg" },
+    ],
   },
   {
-    name: "Product16 Game Name Lorem ipsum dolor sit amet",
+    name: "Manchurian",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 15,
-    price: 300,
-    category: "Games",
+      "Maan churaye Chinese andaz mein.",
+    count: 10,
+    price: 200,
+    category: "Rang De Basanti Dhaba",
     images: [
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
+      { path: "/images/manchurian.jpg" },
     ],
-    rating: 4,
-    reviewsNumber: 7,
+    rating: 5,
+    reviewsNumber: 6,
     reviews: [],
+    attrs: [
+      { key: "type", value: "veg" },
+    ],
   },
   {
-    name: "Product17 Game Name Lorem ipsum dolor sit amet",
+    name: "Kadhai Paneer",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 20,
-    price: 400,
-    category: "Games",
+      "Kadhai me bhuna hua, pyaar se bana hua. Spicy",
+    count: 10,
+    price: 200,
+    category: "Rang De Basanti Dhaba",
     images: [
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
-      { path: "/images/monitors-category.png" },
+      { path: "/images/kadhai-paneer.jpg" },
     ],
-    rating: 4,
-    reviewsNumber: 8,
+    rating: 5,
+    reviewsNumber: 6,
     reviews: [],
+    attrs: [
+      { key: "type", value: "veg" },
+    ],
   },
   {
-    name: "Product18 Game Name Lorem ipsum dolor sit amet",
+    name: "Barbeque chicken wings",
     description:
-      "Product Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa ducimus architecto explicabo id accusantium nihil exercitationem autem porro esse.",
-    count: 25,
-    price: 500,
-    category: "Games",
+      "Deep fried chicken tossed with homemade chef's style barbeque sauce.",
+    count: 10,
+    price: 200,
+    category: "China bowl",
     images: [
-      { path: "/images/monitors-category.png" },
-      { path: "/images/games-category.png" },
-      { path: "/images/tablets-category.png" },
+      { path: "/images/barbeque-chicken-wings.jpg" },
     ],
-    rating: 3,
-    reviewsNumber: 9,
+    rating: 5,
+    reviewsNumber: 6,
     reviews: [],
+    attrs: [
+      { key: "cuisine", value: "sichuan" },
+    ],
+  },
+  {
+    name: "Chicken Lollipop",
+    description:
+      "Maintained chicken wings crafted to lollipop deep fried to perfection served with in house sauces.",
+    count: 10,
+    price: 200,
+    category: "China bowl",
+    images: [
+      { path: "/images/chicken-lollipop.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "cuisine", value: "cantonese" },
+    ],
+  },
+  {
+    name: "Veg Hakka Noodles",
+    description:
+      "A simple light and tasty dish of noodles tossed with assorted veggies, spices and sauces.",
+    count: 10,
+    price: 200,
+    category: "China bowl",
+    images: [
+      { path: "/images/veg-hakka-noodles.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "cuisine", value: "candong" },
+    ],
+  },
+  {
+    name: "Massala Dosa",
+    description:
+      "Dosa with potato served seperate, accompanied with sambar and coconut chutney.",
+    count: 10,
+    price: 200,
+    category: "Chennai Express",
+    images: [
+      { path: "/images/masala-dosa.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "type", value: "dish" },
+    ],
+  },
+  {
+    name: "Sambar",
+    description:
+      "For dosas/idlis/vadas.",
+    count: 10,
+    price: 200,
+    category: "Chennai Express",
+    images: [
+      { path: "/images/sambhar.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "type", value: "curry" },
+    ],
+  },
+  {
+    name: "Idli",
+    description:
+      "Idli served with sambar and chutney.",
+    count: 10,
+    price: 200,
+    category: "Chennai Express",
+    images: [
+      { path: "/images/idli.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "type", value: "snack" },
+    ],
+  },
+  {
+    name: "Chicken Steam Momo",
+    description:
+      "Momo stuffed with mix of soft juicy boneless chicken, onion and coriander.",
+    count: 10,
+    price: 200,
+    category: "Wow Momo",
+    images: [
+      { path: "/images/chicken-steam-momo.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "filling", value: "chicken" },
+    ],
+  },
+  {
+    name: "Veg Steam Momo",
+    description:
+      "Momo stuffed with mix of delicious vegetables and coriander.",
+    count: 10,
+    price: 200,
+    category: "Wow Momo",
+    images: [
+      { path: "/images/veg-momos.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "filling", value: "vegetable" },
+    ],
+  },
+  {
+    name: "Corn Cheese Fried Momo",
+    description:
+      "Filled with shredded cheese and sweet corn and mixed with the flavours of Indian masala.",
+    count: 10,
+    price: 200,
+    category: "Wow Momo",
+    images: [
+      { path: "/images/corn-cheese-momo.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "filling", value: "cheese" },
+    ],
+  },
+  {
+    name: "Chocolate cheesecake",
+    description:
+      "Parlour like fun in a cake filled with chocolates and cookies.",
+    count: 10,
+    price: 200,
+    category: "Kwality Walls",
+    images: [
+      { path: "/images/chocolate_cheesecake.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "flavour", value: "chocolate" },
+    ],
+  },
+  {
+    name: "Butterscotch",
+    description:
+      "Creamy butterscotch tub loaded with chunks of caramel coated cashew nuts.",
+    count: 10,
+    price: 200,
+    category: "Kwality Walls",
+    images: [
+      { path: "/images/butterscotch.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "flavour", value: "butterscotch" },
+    ],
+  },
+  {
+    name: "Oreo and Cream Cup",
+    description:
+      "Crunchy oreo cookie chunks with rich and creamy vanilla in a cup.",
+    count: 10,
+    price: 200,
+    category: "Kwality Walls",
+    images: [
+      { path: "/images/oreo-ice-cream.jpg" },
+    ],
+    rating: 5,
+    reviewsNumber: 6,
+    reviews: [],
+    attrs: [
+      { key: "flavour", value: "vanilla" },
+    ],
   },
 ]
 
